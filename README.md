@@ -1,21 +1,3 @@
-# Jellyboxd
-
-Jellyboxd is a plugin for [Jellyfin](https://jellyfin.org/) that allows users to rate movies after watching them and automatically send the rating, review, and "watched" status to [Letterboxd](https://letterboxd.com/).
-
-## 🎬 Features
-- Displays a popup at the end of a movie asking for a rating (5 stars) and a review.
-- Automatically sends the rating, review, and "watched" status to Letterboxd.
-- Simple configuration via the Jellyfin administration panel.
-
-## 📦 Installation
-1. **Download**  
-   Clone this repository:
-   ```sh
-   git clone https://github.com/your-username/jellyboxd.git
-   cd jellyboxd
-
-
-
 # So you want to make a Jellyfin plugin
 
 Awesome! This guide is for you. Jellyfin plugins are written using the dotnet standard framework. What that means is you can write them in any language that implements the CLI or the DLI and can compile to net8.0. The examples on this page are in C# because that is what most of Jellyfin is written in, but F#, Visual Basic, and IronPython should all be compatible once compiled.
